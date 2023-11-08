@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeepAliveKeys", "KeepAliveKeys\KeepAliveKeys.csproj", "{CCDA7E61-AE67-48CA-B99E-BC94A4B09FBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCDA7E61-AE67-48CA-B99E-BC94A4B09FBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCDA7E61-AE67-48CA-B99E-BC94A4B09FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCDA7E61-AE67-48CA-B99E-BC94A4B09FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCDA7E61-AE67-48CA-B99E-BC94A4B09FBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BA1CFF9-94A9-4C2C-B3A9-A9C6E78C99AA}
+	EndGlobalSection
+EndGlobal
