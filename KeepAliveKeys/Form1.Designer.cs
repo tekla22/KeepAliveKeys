@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormStart));
             this.buttonStart = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -39,6 +40,7 @@
             this.buttonStart.TabIndex = 0;
             this.buttonStart.Text = "Start";
             this.buttonStart.UseVisualStyleBackColor = true;
+            this.buttonStart.Click += new System.EventHandler(this.buttonStart_Click);
             // 
             // FormStart
             // 
@@ -46,8 +48,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(195, 68);
             this.Controls.Add(this.buttonStart);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormStart";
             this.Text = "KeepAliveKeys v1.0";
+            this.Load += new System.EventHandler(this.FormStart_Load);
             this.ResumeLayout(false);
 
         }
